@@ -181,7 +181,7 @@ select * from test;
 ```python
 .output text.csv
 .separator ,
-select * from test where value linke 'm%';
+select * from test where value like 'm%';
 .output stdout
 ```
 
@@ -242,10 +242,10 @@ sqlite3_analyzer test.db
 
 ## 2.6 Other SQLite Tools
 
-http://sqlitebrowser.org/
-http://www.sqliteman.com
-https://sourceforge.net/projects/sqliteman/
-http://www.sqlabs.com/sqlitemanager.php
+http://sqlitebrowser.org/  
+http://www.sqliteman.com  
+https://sourceforge.net/projects/sqliteman/  
+http://www.sqlabs.com/sqlitemanager.php  
 
 ## 2.7 Summary
 
